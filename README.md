@@ -27,18 +27,6 @@ TechStacks
 
 
 
-src/main/java/com/peer/orders/
-│
-├── configuration/        # Security, Swagger, Validation configs
-├── controller/           # REST controllers
-├── service/              # Business logic
-├── repository/           # JPA repositories
-├── model/                # Entities
-├── dto/                  # Request/Response DTOs
-├── exception/            # Global exception handling + custom exceptions
-├── mapper/               # Converts Entity <-> DTO
-└── scheduling/           # Scheduled background tasks
-
 
 Authorization: Basic <base64(username:password)>
 
